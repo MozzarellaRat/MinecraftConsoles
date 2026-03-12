@@ -854,7 +854,7 @@ void Gui::render(float a, bool mouseFree, int xMouse, int yMouse)
 
 	// temporarily render overlay at all times so version is more obvious in bug reports
 	// we can turn this off once things stabilize 
-    if (true)// minecraft->options->renderDebug && minecraft->player != nullptr && minecraft->level != nullptr)
+    if (minecraft->options->renderDebug && minecraft->player != nullptr && minecraft->level != nullptr)// minecraft->options->renderDebug && minecraft->player != nullptr && minecraft->level != nullptr)
 	{
 		const int debugLeft = 1;
 		const int debugTop = 1;
